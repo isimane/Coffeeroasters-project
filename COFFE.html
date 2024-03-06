@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet"> 
+    <title>Coffeeroasters</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+                spacing:{
+                    30:"30px",
+                },
+                fontFamily: { 
+                    fon: ["Fraunces"],
+                    bar: ["Barlow", "sans-serif"],
+                },
+              colors: {
+                  cyan:"#0E8784",
+                  gbleu:"#333D4B",
+                  orange:"#FDD6BA",
+                  cream:"#FEFCF7",
+                  grey:"#83888F",
+                },
+            },
+          },
+        };
+      </script>
+
+</head>
+<body class="bg-cream">
+    <header class="w-[90%] mx-auto">
+            <nav class="flex justify-between items-center  mx-auto my-[30px]">
+                <div class="items-center cursor-pointer">
+                    <img src="images/Group 6.png" class="h-[15px] w-[140px] md:w-[180px] h-[25px]" alt="logo">
+                </div>
+                <div class="flex items-center">
+                    <ul class=" hidden md:flex flex-row text-sm text-grey gap-5 font-bar font-bold md:text-[13px] ">
+                        <li><a href="#" class="hover:text-cyan">HOME</a></li>
+                        <li><a href="COFFEE2.html"class="hover:text-cyan">ABOUT US</a></li>
+                        <li> <a href="#"class="hover:text-cyan">CREATE YOUR PLAN</a></li>
+                    </ul>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-6 h-6 text-cyan md:hidden"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#209270" d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+                </div>
+            </nav>
+            <!-- section1 -->
+            <section class="bg-[url('images/COFFEE.png')] bg-cover bg-center bg-no-repeat  rounded-lg   mb-[100px]">
+                <div class="px-[40px] pb-[100px] pt-[100px]  md:w-[570px] pt-[140px] px-[100px] lg:w-[550px] px-[100px] "> 
+                    <h1 class="font-bold text-white font-fon pb-[35px] text-center text-[40px] md:text-left md:text-7xl  lg:text-left text-7xl ">Great coffee made simple.</h1>
+                    <p class="text-grey text-[15px] leading-7 pb-10 pt-3 text-center md:text-left">Start your mornings with the world’s best coffees. Try our expertly curated artisan coffees from our best roasters delivered directly to your door, at your schedule.</p>
+                    <div class=" flex items-center justify-center md:justify-start ">
+                        <button class="w-[170px] text-white bg-cyan rounded py-4 px-5 text-sm flex flex-col justify-center items-center font-fon font-bold hover:bg-[#066b68]  ">Create your plan</button>
+                    </div>
+                </div>
+
+            </section>
+    </header>
+    
+
+    <!-- section2 -->
+    <section class="mt-[170px]">
+        <div class="  items-center justify-center mt-[130px]  ">
+            <img src="images/ourcollection.png" class=" w-[92%]  mx-auto   md:absolute top-[770px]  left-0 right-0 lg:absolute top-[660px]  left-0 right-0" alt="">
+            
+        </div>
+            <div class="flex flex-col justify-center gap-2 w-[60%] items-center  relative   mx-auto md:flex-col lg:flex-row  ">
+                        <div class="flex flex-col items-center md:flex-row lg:flex-col">
+                            <img src="https://i.postimg.cc/V6zf6LKb/kopi1-copy.png" class="h-[120px] w-[170px]  md:h-[160px] w-[210px]" alt="kopi1">
+                            <div class="pt-[20px]  lg:w-[250px]">
+                                <h2 class=" text-center font-fon text-gbleu  font-bold text-[13px]  md:text-left text-[15px]  lg:text-center ">Gran Espresso</h2>
+                                <p class=" text-center font-bar text-gbleu  text-[11px] md:text-left text-[13px]   lg:text-center   ">Light and flavorful blend with cocoa and black pepper for an intense experience.</p>
+                            </div>
+                        
+                        </div>
+
+                    <div class="flex flex-col items-center md:flex-row lg:flex-col">
+                        <img src="https://i.postimg.cc/SsQ441K6/kopi2.png" class="h-[120px] w-[170px] md:h-[160px] w-[210px]" alt="kopi2">
+                        <div class="pt-[20px]  lg:w-[250px]">
+                            <h2 class=" text-center font-fon text-gbleu  font-bold text-[13px]  md:text-left text-[15px]   lg:text-center ">Planalto</h2>
+                            <p class=" text-center font-bar text-gbleu  text-[11px] md:text-left text-[13px]   lg:text-center   ">Brazilian dark roast with rich and velvety body, and hints of fruits and nuts.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col items-center md:flex-row lg:flex-col">
+                        <img src="https://i.postimg.cc/tCnj9x9M/kopi3.png" class="h-[120px] w-[170px]  md:h-[160px] w-[210px]" alt="kopi3">
+                        <div class="pt-[20px]  lg:w-[250px]">
+                            <h2 class=" text-center font-fon text-gbleu  font-bold text-[13px]  md:text-left text-[15px]   lg:text-center ">Piccollo</h2>
+                            <p class=" text-center font-bar text-gbleu  text-[11px] md:text-left text-[13px]   lg:text-center   ">Mild and smooth blend featuring notes of toasted almond and dried cherry.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col items-center md:flex-row lg:flex-col">
+                        <img src="https://i.postimg.cc/VsTxZkXB/kopi4.png" class="h-[120px] w-[170px]  md:h-[160px] w-[210px]" alt="kopi4">
+                        <div class="pt-[20px] lg:w-[250px]">
+                            <h2 class=" text-center font-fon text-gbleu  font-bold text-[13px]  md:text-left text-[15px]  lg:text-center ">Danche</h2>
+                            <p class=" text-center font-bar text-gbleu  text-[11px] md:text-left text-[13px]   lg:text-center   ">Ethiopian hand-harvested blend densely packed with vibrant fruit notes.</p>
+                        </div>
+                    </div>
+            </div>
+        </section>
+            <!-- section3 -->
+            <section class="mt-[20%] ">
+
+                <div class="bg-gbleu rounded-lg w-[90%] mx-auto flex flex-col justify-center ">
+                    <div class="flex flex-col justify-center w-[80%] mx-auto md:w-[60%]  ">
+                        <h3 class="font-fon text-[30px] font-bold text-white text-center pt-[60px] pb-5 md:text-[50px] lg:pt-20">Why choose us?</h3>
+                        <p class="text-grey text-center font-bar   pb-[55%] text-[12px] md:pb-[35%] text-[19px] lg:pb-[30%] "> A large part of our role is choosing which particular coffees will be featured 
+                            in our range. This means working closely with the best coffee growers to give 
+                            you a more impactful experience on every level.</p>
+                    </div>
+                </div>
+                <!-- the section with the three bg-green cards-->
+                    <div class="flex flex-col w-[80%] gap-[15px]  mx-auto mt-[4%] relative top-[-10px]  lg:flex-row relative top-[-150px]   ">
+                        <div class="bg-cyan rounded-lg  gap-5 px-10 py-5 text-center flex flex-col justify-center items-center pb-[9%] pt-[5%] md:flex-row lg:flex-col">
+                            <img src="images/Shape.png" class="h-[40px] w-[40px] " alt="coffee bean">
+                            <div>
+                                <h4 class="font-fon font-bold text-cream text-[27px] pb-2">Best quality</h4>
+                                <p class="font-bar text-cream  text-[14px] md:w-[70%] mx-auto lg:w-[100%]">Discover an endless variety of the world’s best artisan coffee from each of our roasters.</p>
+                            </div>
+                        </div>
+
+                        <div class="bg-cyan rounded-lg  gap-5 px-10 py-5 flex flex-col text-center justify-center items-center pb-[9%] pt-[5%] md:flex-row lg:flex-col">
+                            <img src="images/Combined Shape.png"  class="h-[40px] w-[40px] " alt="">
+                            <div>
+                                <h4 class="font-fon font-bold text-cream text-[27px] pb-2">Exclusive benefits</h4>
+                                <p class="font-bar text-cream text-[14px]  md:w-[70%] mx-auto lg:w-[100%] ">Special offers and swag when you subscribe, including 30% off your first shipment.</p>
+                            </div>
+                        </div>
+
+                        <div class=" flex flex-col bg-cyan rounded-lg  gap-5 px-10 py-5 text-center justify-center items-center pb-[9%] pt-[5%] md:flex-row lg:flex-col">
+                            <img src="images/Combined Shape (1).png"  class="h-[35px] w-[35px] " alt="">
+                            <div>
+                                <h4 class="font-fon font-bold text-cream text-[27px] pb-2">Free shipping</h4>
+                                <p class="font-bar text-cream text-[14px]  md:w-[70%] mx-auto lg:w-[100%] ">We cover the cost and coffee is delivered fast. Peak freshness: guaranteed.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- safe -->
+            </section>
+
+            <!-- section4 -->
+            <section class="mt-[15%]  mx-auto  lg:mt-[17%] w-[90%] mx-auto ">
+                <h5 class="text-2xl font-fon font-bold text-center text-grey md:text-start  ">How it works?</h5>
+                <img src="images/Group 16.png" class="scale-0 md:scale-100 w-[800px] h-7 mt-[50px]" alt="">
+                
+            <!-- douk3 -->
+                <div class="flex flex-col justify-center  gap-[15px] mt-[50px] md:flex-row  ">
+                   <div class="">
+                        <h6 class="text-7xl  font-fon font-bold text-center text-orange pb-6 pl-3  md:text-start">01</h6>
+                        <p class="text-5xl text-gbleu font-fon font-bold text-center pb-6  md:text-left  md:w-[75%] ">Pick your
+                            coffee</p>
+                        <p class="text-[16px] font-bar text-gbleu text-center leading-7 md:text-left [80%] ">Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
+                   </div>
+                   <div class="hi">
+                        <h6 class="text-7xl  font-fon font-bold text-orange pb-6 pl-3 text-center md:text-start">02</h6>
+                        <p class="text-5xl text-gbleu font-fon font-bold text-center pb-6  md:text-left md:w-[75%] ">Choose the frequency</p>
+                        <p class="text-[16px] font-bar text-gbleu text-center leading-6 md:text-left md:w-[80%]">Customize your order frequency, quantity, even your roast style and grind type. Pause, skip or cancel your subscription with no commitment through our online portal.</p>
+                   </div>
+                   <div class="hi">
+                        <h6 class="text-7xl  font-fon font-bold text-orange pb-6 pl-3 text-center md:text-start" >03</h6>
+                        <p class="text-5xl text-gbleu font-fon text-center font-bold pb-6 md:text-left md:w-[75%] ">Receive and enjoy!</p>
+                        <p class="text-[16px] font-bar text-gbleu text-center leading-6 md:text-left md:w-[80%] ">We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning world-class coffees curated to provide a distinct tasting experience.</p>
+                   </div>
+            <!-- safee -->
+                </div>
+                <div class=" flex items-center justify-center md:justify-start ">
+                    <button class="w-[170px] text-white bg-cyan rounded py-4 px-5 text-sm flex flex-col justify-center items-center  mt-20 font-fon font-bold hover:bg-[#066b68]  ">Create your plan</button>
+                </div>
+            </section>
+
+            <!-- footerrrrr -->
+            <footer class="flex flex-col justify-between px-20 w-[90%] py-[30px] mb-10 mt-[80px] mx-auto items-center bg-gbleu md:flex-col mt-[150px] py-[30px]   lg:flex-row mt-[150px] py-[10px] ">
+                <img src="images/Group 5.png" class=" h-[20px] w-[150px]" alt="">
+                <div>
+                    <ul class=" flex flex-col  text-sm text-grey gap-3 items-center font-bar pt-10 pb-10 font-bold md:flex-row text-[13px] pt-5 pb-5 lg:flex-row text-[13px] pb-0 pt-0">
+                        <li><a href="#" class="hover:text-white">HOME</a></li>
+                        <li><a href="COFFEE2.html"class="hover:text-white">ABOUT US</a></li>
+                        <li> <a href="#"class="hover:text-white">CREATE YOUR PLAN</a></li>
+                    </ul>
+                </div>
+                <div class="flex flex-row gap-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook text-white" viewBox="0 0 16 16">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                      </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter text-white" viewBox="0 0 16 16">
+                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+                      </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram text-white" viewBox="0 0 16 16">
+                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                      </svg>
+
+                </div>
+            </footer>
+    
+</body>
+</html>

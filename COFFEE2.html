@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet"> 
+    <title>coffeeroasters</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+                spacing:{
+                    30:"30px",
+                },
+                fontFamily: { 
+                    fon: ["Fraunces"],
+                    bar: ["Barlow", "sans-serif"],
+                },
+              colors: {
+                  cyan:"#0E8784",
+                  gbleu:"#333D4B",
+                  orange:"#FDD6BA",
+                  cream:"#FEFCF7",
+                  grey:"#83888F",
+                },
+            },
+          },
+        };
+      </script>
+</head>
+<body class="bg-cream">
+    <header class="w-[90%] mx-auto">
+        <nav class="flex justify-between items-center  my-[30px] ">
+            <div class="items-center cursor-pointer">
+                <img src="images/Group 6.png" class="h-[20px] w-[130px] md:w-[180px] h-[25px]" alt="logo">
+            </div>
+            <div class="flex items-center">
+                <ul class=" hidden md:flex flex-row text-sm text-grey gap-5 font-bar font-bold md:text-[13px] ">
+                    <li><a href="COFFE.html" class="hover:text-cyan">HOME</a></li>
+                    <li><a href="COFFEE2.html"class="hover:text-cyan">ABOUT US</a></li>
+                    <li> <a href="#"class="hover:text-cyan">CREATE YOUR PLAN</a></li>
+                </ul>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-6 h-6 text-cyan md:hidden"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#209270" d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+            </div>
+        </nav>
+        <!-- section1 -->
+        <section class="bg-[url('images/coffeecup.jpg')] bg-cover bg-center bg-no-repeat   bg-no-repeat  rounded-lg  mb-[100px] ">
+            <div class="px-[40px] pb-[60px] pt-[140px] w-[100%] md:w-[65%]  lg:w-[65%] px-[100px] "> 
+                <h1 class="font-bold text-white font-fon pb-[35px] text-center text-[40px] md:text-left md:text-7xl  lg:text-left text-7xl">About us</h1>
+                <p class="text-grey text-[15px] leading-7 pb-10 pt-3 text-center md:text-left text-[17px]">Coffeeroasters began its journey of exotic discovery in 1999, highlighting stories of coffee from around the world. We have since been dedicated to bring the perfect cup - from bean to brew - in every shipment.</p>
+            </div>
+        </section>
+    </header>
+
+    <!-- section2 -->
+    <section class="flex flex-col w-[70%]  items-center mb-[100px] justify-center gap-[60px]  mx-auto md:flex-row md:w-[80%] lg:w-[70%]   ">
+        <img src="images/person.png" class=" rounded-lg w-[80%] " alt="person">
+        <div class="items-center">
+            <h2 class="text-gbleu font-fon font-bold text-center text-[25px] pb-[20px] w-[100%] md:text-left text-4xl">Our commitment</h2>
+            <p class="text-grey font-bar text-[13px] text-center leading-7 w-[100%] md:text-left leading-2  text-[12px] lg:leading-7">We’re built on a simple mission and a commitment to doing good along the way. We want to make it easy for you to discover and brew the world’s best coffee at home. It all starts at the source. To locate the specific lots we want to purchase, we travel nearly 60 days a year trying to understand the challenges and opportunities in each of these places. We collaborate with exceptional coffee growers and empower a global community of farmers through with well above fair-trade benchmarks. We also offer training, support farm community initiatives, and invest in coffee plant science. Curating only the finest blends, we roast each lot to highlight tasting profiles distinctive to their native growing region.</p>
+        </div>
+    </section>
+    <!-- section3 -->
+    <section class="flex flex-col  items-center rounded-lg w-[90%] mx-auto lg:flex-row " >
+        <div class="flex flex-col justify-center px-[5%] bg-gbleu items-center rounded-lg  md:flex-row pt[3%]  ">
+            <div class="items-center md:w-[80%] ">
+                <h3 class="text-white font-fon   pt-[30%] text-center font-bold text-4xl md:w-[100%] md:pt-[15%]  lg:text-left lg:w-[90%] pt-[3%] pb-6 ">Uncompromising quality</h3>
+                <p class="text-grey fot-bar  text-center pb-[15%] text-center text-[14px] leading-7 md:w-[100%] lg:text-left  lg:w-[90%]  ">Although we work with growers who pay close attention to all stages of harvest and processing, we employ, on our end, a rigorous quality control program to avoid over-roasting or baking the coffee dry. Every bag of coffee is tagged with a roast date and batch number. Our goal is to roast consistent, user-friendly coffee, so that brewing is easy and enjoyable.</p>
+            </div>
+            <div class="rounded-lg">
+                <img src="images/Bitmap.jpg" class="hidden rounded-lg w-[400px] mt-3 h-[350px] my-2 rounded-lg lg:block relative top-[-100px]" alt="coffee">
+            </div>
+        </div>
+        <div class="rounded-lg">
+            <img src="images/Bitmap.jpg" class="rounded-lg w-[400px] mt-3 h-[350px] my-2 rounded-lg lg:hidden" alt="coffee">
+        </div>
+        
+    </section> 
+    <!-- section4 -->
+    <section class="mt-[15%] w-[85%] mx-auto ">
+        <h3 class="text-4xl font-fon  font-bold text-center text-grey md:text-left ">Our headquarters</h3>
+        <div class="flex flex-col  text-center gap-[10%] mt-[50px] md:flex-row ">
+            <div class=""> 
+                <div class=" flex flex-col items-center justify-center">
+                    <img src="images/image (1).png" class="w-[50px] h-[40px] " alt="United kingdom">
+                </div>
+                <div class="">
+                    <h4 class="text-3xl text-gbleu font-fon font-bold text-center pt-7 pb-7 md:text-left  md:w-[100%] md:text-2xl lg:text-4xl">United kingdom</h4>
+                    <ul class="text-[19px] font-bar mb-7 text-gbleu" >
+                        <li>68  Asfordby Rd</li>
+                        <li>Alcaston</li>
+                        <li>SY6 1YA</li>
+                        <li>+44 1241 918425</li>
+                    </ul>
+                </div>
+            </div>
+
+                <div class="mx-[9%]"> 
+                    <div class=" flex flex-col items-center justify-center">
+                        <img src="images/image (2).png" class="w-[50px] h-[40px]" alt="United kingdom">
+                    </div>
+                    <div>
+                        <h4 class="text-3xl text-gbleu font-fon font-bold text-center pb-7 pt-7  md:text-left  md:w-[100%]  md:text-2xl  lg:text-4xl">Canda</h4>
+                        <ul class="text-[19px] font-bar  mb-7 text-gbleu" >
+                            <li>68  Asfordby Rd</li>
+                            <li>Alcaston</li>
+                            <li>SY6 1YA</li>
+                            <li>+44 1241 918425</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div> 
+                    <div class=" flex flex-col items-center justify-center">
+                        <img src="images/image.png" class="w-[50px] h-[40px]" alt="United kingdom">
+                    </div>
+                    <div>
+                        <h4 class="text-3xl text-gbleu font-fon font-bold text-center pb-7 pt-7 md:text-left  md:w-[100%] md:text-2xl lg:text-4xl">Australia</h4>
+                        <ul class="text-[19px] font-bar text-gbleu" >
+                            <li>68  Asfordby Rd</li>
+                            <li>Alcaston</li>
+                            <li>SY6 1YA</li>
+                            <li>+44 1241 918425</li>
+                        </ul>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+     <!-- footerrrrr -->
+     <footer class="flex flex-col justify-between px-20 w-[90%] py-[30px] mb-10 mt-[80px] mx-auto items-center bg-gbleu md:flex-col mt-[150px] py-[30px]   lg:flex-row mt-[150px] py-[10px] ">
+        <img src="images/Group 5.png" class=" h-[20px] w-[130px]" alt="">
+        <div>
+            <ul class=" flex flex-col  text-sm text-grey gap-3 items-center font-bar pt-10 pb-10 font-bold md:flex-row text-[13px] pt-5 pb-5 lg:flex-row text-[13px] pb-0 pt-0">
+                <li><a href="COFFE.html" class="hover:text-white">HOME</a></li>
+                <li><a href="COFFEE2.html"class="hover:text-white">ABOUT US</a></li>
+                <li> <a href="#"class="hover:text-white">CREATE YOUR PLAN</a></li>
+            </ul>
+        </div>
+        <div class="flex flex-row gap-5">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook text-white" viewBox="0 0 16 16">
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+              </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter text-white" viewBox="0 0 16 16">
+                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+              </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram text-white" viewBox="0 0 16 16">
+                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+              </svg>
+
+        </div>
+    </footer>
+</body>
+</html>
